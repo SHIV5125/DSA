@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.code.LinkedList"/>
-    <fullyQualifiedTypeName name="com.code.DLInkedList"/>
-    <fullyQualifiedTypeName name="com.code.CircularLinkedList"/>
-    <fullyQualifiedTypeName name="com.code.Queue"/>
-    <fullyQualifiedTypeName name="java.util.Stack"/>
-</qualifiedTypeNameHistroy>
