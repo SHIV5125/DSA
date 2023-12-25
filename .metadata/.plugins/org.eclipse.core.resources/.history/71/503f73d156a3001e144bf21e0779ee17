@@ -1,0 +1,38 @@
+package com.code;
+
+public class LinkedList {
+	private Node head;
+
+	public Node getHead() {
+		return head;
+	}
+
+	public LinkedList() {
+		head = null;
+	}
+	
+	public boolean insert(int data) {
+		Node newNode = new Node(data);
+		if(head == null) {
+			head = newNode;
+		}
+		
+		Node last = head;
+		while(last!= null) {
+			last = last.getNext();
+		}
+		last.setNext(newNode);
+		return true;
+		
+	}
+	
+	public void display() {
+		Node temp = head;
+		while(temp != null) {
+			System.out.println(temp.getData() + " ");
+			temp = temp.getNext();
+		}
+		System.out.println();
+	}
+
+}
